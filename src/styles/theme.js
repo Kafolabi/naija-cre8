@@ -6,6 +6,7 @@ const theme = extendTheme({
     boxGreen: "#095344",
     textWhite: "#FFFFFF",
     textGreen: "#095344",
+    textSpeakerGreen: "#092D26",
     activeLinkGreen: "#0FF900",
     hoverLinkGreen: "#0CC800",
   },

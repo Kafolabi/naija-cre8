@@ -15,7 +15,7 @@ export function Agenda({ title, isThereList = true, children }) {
             {title}
           </Heading>
           <Text
-            lineHeight={isThereList ? "short" : "2rem"}
+            lineHeight={isThereList ? "2.2rem" : "2rem"}
             color="textGreen"
             mb={9}
           >

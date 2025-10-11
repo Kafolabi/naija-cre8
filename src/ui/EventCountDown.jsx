@@ -13,7 +13,7 @@ function EventCountDown() {
     return () => clearInterval(timer);
   }, [targetDate]);
 
-  const fs = { base: "4.5rem", md: "8rem", lg: "10rem" };
+  const fs = { base: "3.5rem", md: "8rem", lg: "10rem" };
 
   return (
     <Box
