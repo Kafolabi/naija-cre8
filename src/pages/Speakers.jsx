@@ -91,7 +91,7 @@ function Speakers() {
         </Box>
       </OurHeading>
 
-      <Flex mt={10} gap={10} wrap="wrap" justify="center" color="textGreen">
+      <Flex mt={10} gap={{ base: 8, md: 0 }} wrap="wrap" justify="center" color="textGreen">
         <Image
           src="/logo.png"
           alt="Naija Cre8 Logo"
@@ -120,10 +120,10 @@ function Speakers() {
       <Flex
         mt={10}
         mb={20}
-        gap={10}
         wrap="wrap"
         justify="center"
         color="textGreen"
+        gap={{ base: 8, md: 0 }}
       >
         {speakers.slice(2, 4).map((speaker, index) => (
           <Speaker key={index} speaker={speaker} />
