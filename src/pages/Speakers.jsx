@@ -96,7 +96,7 @@ function Speakers() {
           src="/logo.png"
           alt="Naija Cre8 Logo"
           position="absolute"
-          left={{ base: "-10%", md: "5%" }}
+          left={{ base: "-10%", md: "2%" }}
           top={{ base: "47%", md: "50%" }}
           transform="translateY(-50%)"
           w={{ base: "225px", md: "310px" }}
@@ -106,7 +106,7 @@ function Speakers() {
           src="/logo.png"
           alt="Naijacre8 logo"
           position="absolute"
-          right={{ base: "-10%", md: "5%" }}
+          right={{ base: "-10%", md: "2%" }}
           top={{ base: "47%", md: "50%" }}
           transform="translateY(-50%)"
           w={{ base: "225px", md: "310px" }}
