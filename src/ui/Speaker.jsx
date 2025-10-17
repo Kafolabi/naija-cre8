@@ -80,7 +80,7 @@ function Speaker({ speaker, index }) {
       </Text>
 
       {speaker.details.map((section, i) => (
-        <Text key={i} lineHeight="tall" mb={5}>
+        <Text key={i} lineHeight="tall" mb={5} whiteSpace="pre-line">
           <Text as="b" display="block" letterSpacing="wide">
             ● {section.title}
           </Text>{" "}
