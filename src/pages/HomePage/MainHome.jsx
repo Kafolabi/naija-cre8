@@ -31,11 +31,10 @@ function MainHome() {
         p={12}
         rounded="3xl"
         direction={{ base: "column", md: "row" }}
-        height="90vh"
       >
         <Box flex="1" mx={{ base: 0, lg: 10 }}>
           <Text color="textWhite" animation={`${fadeInUp} 1s ease`}>
-            December 12, 2025
+            February 14, 2026
           </Text>
           <Heading
             as="h1"

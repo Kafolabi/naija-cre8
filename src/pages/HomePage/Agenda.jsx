@@ -42,7 +42,7 @@ function Agenda() {
           position="absolute"
           right={{ md: "10", base: "2" }}
           top={{ md: "50%", base: "70%" }}
-          width={{ md: "50%", base: "100%" }}
+          width={{ md: "40%", base: "100%" }}
           height={{ base: "270px" }}
           pointerEvents="none"
         />
