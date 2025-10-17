@@ -14,7 +14,7 @@ function OurHeading({ isAnimate = false, children, alignCenter = false }) {
       align={alignCenter ? "center" : "stretch"}
       gap={4}
       color="white"
-      mb={6}
+      mb={20}
       textAlign={alignCenter ? "center" : { base: "center", md: "left" }}
     >
       {isAnimate ? (

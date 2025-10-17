@@ -12,21 +12,21 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 
-const Links = ["Home", "Speakers", "Venue", "Sponsors"];
+const Links = ["Home", "Speakers", "Tickets", "Venue", "Sponsors"];
 
 function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
     <Container maxW="1200px">
-      <Box color="textWhite" px={4}>
+      <Box color="textWhite" px={7}>
         <Flex h={16} alignItems="center" justifyContent="space-between">
           <Box fontWeight="bold" pt={8}>
             NAIJA CRE8
           </Box>
 
           <HStack
-            spacing={8}
+            spacing={2}
             alignItems="center"
             display={{ base: "none", md: "flex" }}
           >

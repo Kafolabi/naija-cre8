@@ -1,8 +1,8 @@
+import { Box } from "@chakra-ui/react"
+
 function Sponsors() {
     return (
-        <div>
-            <h1>Welcome to the Sponsors Page</h1>
-        </div>
+        <Box bg="boxCream" w="100vw" h="100vh" mt={10} borderRadius="3xl" mt={20}></Box>
     )
 }
 

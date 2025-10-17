@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/HomePage/Home";
 import Speakers from "./pages/Speakers";
 import Sponsors from "./pages/Sponsors";
-import Tickets from "./pages/Tickets";
+import Tickets from "./pages/TicketsPage/Tickets";
 import Venue from "./pages/Venue";
 import Layout from "./ui/Layout";
 
