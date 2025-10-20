@@ -38,7 +38,7 @@ function Contact() {
                 EVENT LOCATION
               </Heading>
               <Text fontSize="smaller">
-                December 12, 2052 | Unilag Indoor Sport Complex, Lagos, Nigeria.{" "}
+                February 14, 2026 | Unilag Indoor Sport Complex, Lagos, Nigeria.{" "}
               </Text>
             </Box>
           </Flex>

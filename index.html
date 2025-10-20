@@ -4,57 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Title & Description for SEO -->
-    <title>Naija Cre8 | Biggest gathering of Naija Creatives</title>
+    <!-- Primary SEO -->
+    <title>Naija Cre8 | Biggest Gathering of Naija Creatives</title>
     <meta
       name="description"
-      content="Join Naija Cre8, Nigeria's biggest gathering of creatives on February 14, 2026, at Unilag Indoor Sports Complex, Lagos."
+      content="Join Naija Cre8 — Nigeria's biggest gathering of creatives on February 14, 2026, at Unilag Indoor Sports Complex, Lagos."
     />
+    <meta name="author" content="Naija Cre8 Team" />
 
-    <!-- Favicon -->
+    <!-- Favicon / App Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#00a859" />
 
-    <!-- Google / SEO: Organization Logo -->
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://naijacre8.com" />
+    <meta
+      property="og:title"
+      content="Naija Cre8 | Biggest Gathering of Naija Creatives"
+    />
+    <meta
+      property="og:description"
+      content="Join Naija Cre8 — Nigeria's biggest gathering of creatives on February 14, 2026, at Unilag Indoor Sports Complex, Lagos."
+    />
+    <meta property="og:image" content="https://naijacre8.com/og-banner.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://naijacre8.com" />
+    <meta
+      name="twitter:title"
+      content="Naija Cre8 | Biggest Gathering of Naija Creatives"
+    />
+    <meta
+      name="twitter:description"
+      content="Join Naija Cre8 — Nigeria's biggest gathering of creatives on February 14, 2026, at Unilag Indoor Sports Complex, Lagos."
+    />
+    <meta name="twitter:image" content="https://naijacre8.com/og-banner.png" />
+
+    <!-- Schema.org: Organization -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Naija Cre8",
         "url": "https://naijacre8.com",
-        "logo": "https://naijacre8.com/favicon/favicon-32x32.png"
+        "logo": "https://naijacre8.com/favicon/android-chrome-512x512.png",
+        "sameAs": [
+          "https://www.instagram.com/naijacre8",
+          "https://x.com/naijacre8",
+          "https://facebook.com/naijacre8"
+        ]
       }
     </script>
 
-    <!-- Open Graph (Facebook, WhatsApp, etc.) -->
-    <meta
-      property="og:title"
-      content="Naija Cre8 | Biggest gathering of Naija Creatives"
-    />
-    <meta
-      property="og:description"
-      content="Join Naija Cre8, Nigeria's biggest gathering of creatives on February 14, 2026, at Unilag Indoor Sports Complex, Lagos."
-    />
-    <meta property="og:image" content="https://naijacre8.com/favicon-32x32.png" />
-    <meta property="og:url" content="https://naijacre8.com" />
-    <meta property="og:type" content="website" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Naija Cre8 | Biggest gathering of Naija Creatives"
-    />
-    <meta
-      name="twitter:description"
-      content="Join Naija Cre8, Nigeria's biggest gathering of creatives on February 14, 2026, at Unilag Indoor Sports Complex, Lagos."
-    />
-    <meta name="twitter:image" content="https://naijacre8.com/favicon-32x32.png" />
+    <!-- Schema.org: WebSite -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://naijacre8.com/",
+        "name": "Naija Cre8",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://naijacre8.com/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
-
